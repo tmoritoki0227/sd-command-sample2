@@ -138,7 +138,7 @@ def exec_ansible_galaxy_install(name:str, version:str) -> None:
     """
 
     # try:
-    # cmd = "ansible-gallaxy install " + str(name) + "-" + str(version) + ".tar.gz"
+    cmd = "ansible-gallaxy install " + str(name) + "-" + str(version) + ".tar.gz"
     print ("ansible_gallaxy_command = " + str(cmd)) 
     cmd = "hostname"
     print ("ansible_gallaxy_command = " + str(cmd)) # 失敗した時のためにも出しておく
